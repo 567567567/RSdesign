@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <title>RSdesign</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.3.1/dist/css/yakuhanjp.min.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="headerInner">
+            <h1 class="mainTitle"><a href="#">RSdesign</a></h1>
+            <span class="nav_toggle">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+            <nav class="nav">
+                <ul class="nav_menu_ul">
+                    <li class="nav_menu_li"><a href="#">TOP</a></li>
+                    <li class="nav_menu_li"><a href="#about">ABOUT</a></li>
+                    <li class="nav_menu_li"><a href="#works">WORKS</a></li>
+                    <li class="nav_menu_li"><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="mainVisual">
+        </div>
+        <main>
+            <section id="about" class="about">
+                <h2>ABOUT</h2>
+                <div class="direction_box">
+                    <h3 class="direction">ディレクション</h3>
+                    <img src="images/direction.png" alt="DIRECTIONの画像">
+                    <p>ディレクションディレクションディレクションディレクションディレクションディレクションディレクションディレクションディレクションディレクションディレクションディレクションディレクションディレクションディレクションディレクション</p>
+                </div>
+                <div class="design_box">
+                    <h3 class="design">デザイン</h3>
+                    <img src="images/design.png" alt="DESIGNの画像">
+                    <p>デザインデザインデザインデザインデザインデザインデザインデザインデザインデザインデザインデザインデザインデザインデザインデザインデザインデザインデザインデザインデザインデザインデザイン</p>
+                </div>
+                <div class="coding_box">
+                    <h3 class="coding">コーディング</h3>
+                    <img src="images/coding.png" alt="CODINGの画像">
+                    <p>コーディングコーディングコーディングコーディングコーディングコーディングコーディングコーディングコーディングコーディングコーディングコーディングコーディングコーディングコーディングコーディングコーディングコーディングコーディングコーディングコーディングコーディングコーディング</p>
+                </div>
+            </section>
+
+            <section id="works" class="works">
+                <h2>WORKS</h2>
+            </section>
+
+            <section id="contact" class="contact">
+                <h2>CONTACT</h2>
+                <form action="confirmation.php" method="post">
+
+                    <dl>
+                        <dt><label for="name">お名前:</label></dt>
+                        <dd><input type="text" name="name" size="" value="" class="contact_name" id="name"></dd>
+                    </dl>
+
+                    <dl>
+                        <dt><label for="email">メールアドレス:</label></dt>
+                        <dd><input type="text" name="mail" size="" value="" class="contact_mail" id="email"></dd>
+                    </dl>
+
+                    <dl>
+                        <dt><label for="otoiawase">お問い合わせ内容:</label></dt>
+                        <dd><textarea name="inquiry" cols="" rows="5" id="otoiawase" class="contact_otoiawase"></textarea></dd>
+                    </dl>
+
+                    <input type="submit" value="送信" class="send">
+                </form>
+            </section>
+        </main>
+        <footer>
+           <div class="footerInner">
+                <p>© RSdesign All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
