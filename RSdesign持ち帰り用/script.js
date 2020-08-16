@@ -27,5 +27,11 @@ $(function () {
         $('body,html').animate({scrollTop: position}, speed, 'swing');
         return false;
     });
+	
+	$.getJSON("works.json", function(date){
+		for(var i in date){
+            $("#work_list").append("<li><div><img src="+ date[i].images + ">" + "<dl><dt>" + date[i].title + "</dt><dd>"+ date[i].concept + "</dd><dd>" + date[i].skill + "</dd></dl></div></li>");
+		};
+	});
 
 });

@@ -245,6 +245,21 @@ main.show {
   text-align: center;
   font-size: 2.5rem;
 }
+.works #work_list {
+  padding: 1rem;
+}
+.works #work_list li div {
+  margin-bottom: 30px;
+}
+.works #work_list li div img {
+  max-width: 100%;
+  height: auto;
+}
+.works #work_list li div dl dt {
+  line-height: 1.8;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
 
 .contact {
   width: 100%;
